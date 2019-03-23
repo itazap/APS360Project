@@ -29,7 +29,7 @@ from resnet import *
 
 import torchvision.models as models
 resnet18 = resnet18(pretrained=True)
-resnet18 = resnet18.cuda()
+
 
 #--------------------Data Loading and Splitting ---------------------------------
 def get_data_loader(batch_size):
